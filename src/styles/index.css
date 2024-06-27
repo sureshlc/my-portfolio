@@ -1,0 +1,179 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.photo {
+  margin-bottom: 20px;
+}
+
+.description {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center; /* Center the tabs */
+  margin-bottom: 20px;
+  gap: 10px; /* Add space between the tabs */
+}
+
+.tabs button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tabs button:hover {
+  background-color: #ddd;
+}
+
+.tabs button.active {
+  background-color: #007acc;
+  color: white;
+}
+
+.tab-content {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.resume {
+  text-align: center;
+}
+
+.resume h2 {
+  margin-bottom: 10px;
+}
+
+.resume a {
+  text-decoration: none;
+  color: #007acc;
+}
+
+.resume a:hover {
+  text-decoration: underline;
+}
+
+.education ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.education li {
+  margin-bottom: 20px;
+}
+
+.education-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.education-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+  flex: 1;
+}
+
+.education-item p {
+  margin: 0;
+  font-size: 1em;
+  color: #555;
+  flex: 1;
+  text-align: right;
+}
+
+.experience ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.experience li {
+  margin-bottom: 20px;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+  padding-left: 20px; /* Add left padding for indentation */
+}
+
+.experience-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.experience-item p {
+  margin: 0;
+  font-size: 1em;
+  color: #555;
+}
+
+.experience-item ul {
+  list-style-type: disc;
+  margin-left: 20px; /* Indent the nested list items */
+}
+
+.experience-item ul li {
+  margin-bottom: 10px;
+}
+
+.project {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-item {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.project-item h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.5em;
+  color: #007acc;
+}
+
+.project-item p {
+  margin: 0 0 10px 0;
+  color: #555;
+}
+
+.project-item ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.project-item ul li {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.project-item strong {
+  color: #007acc;
+}
+
